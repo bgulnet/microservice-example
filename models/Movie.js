@@ -6,7 +6,7 @@ const MovieSchema = new Schema ({
         required: true
     },
     category: String,
-    counrty: String,
+    country: String,
     year: Number,
     imdb_score: Number,
     director_id: Schema.Types.ObjectId,
